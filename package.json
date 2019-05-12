@@ -1,0 +1,10 @@
+{
+    "name": "splixioserver",
+    "author": "person4268",
+    "version": "1.0.0",
+    "dependencies": {
+        "namespace-include": "^3.4.4",
+        "utf8": "^3.0.0",
+        "websocket": "^1.0.28"
+    }
+}

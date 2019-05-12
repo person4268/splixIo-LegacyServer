@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "Splix.io Utility Extension",
+    "version": "0.0",
+    "description": "Used for debugging the website splix.io",
+    "content_scripts": [
+        {
+            "matches": [
+                "*://splix.io/*"
+            ],
+            "js": [
+                "inject.js"
+            ],
+            "run_at": "document_start"
+        }
+    ],
+    "web_accessible_resources": [
+        "content.js",
+        "debug.js"
+    ]
+}
